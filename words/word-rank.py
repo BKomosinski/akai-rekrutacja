@@ -4,8 +4,8 @@ from collections import Counter
 # Zbieramy wejściowe teksty od użytkownika
 texts = []
 while True:
-    tekst = input("Wprowadź tekst (wpisz 'stop' aby zakończyć): ")
-    if tekst == 'stop':
+    text = input("Wprowadź tekst (wpisz 'stop' aby zakończyć): ")
+    if text == 'stop':
         break
     texts.append(tekst)
 
