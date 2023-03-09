@@ -1,1 +1,1 @@
-# zadania na rekrutacje do akai
+# zadania na rekrutację do akai
