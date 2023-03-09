@@ -7,7 +7,7 @@ while True:
     text = input("Wprowadź tekst (wpisz 'stop' aby zakończyć): ")
     if text == 'stop':
         break
-    texts.append(tekst)
+    texts.append(text)
 
 # Łączymy teksty w jedną długą ciągłą, usuwamy znaki interpunkcyjne i konwertujemy litery na małe
 alltext = re.sub(r'[^\w\s]', '', ' '.join(texts).lower())
